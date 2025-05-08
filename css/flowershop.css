@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstheader{
+margin: 20px 0;
+margin-left: 200px;
+}
+
+.firstheader a{
+    text-decoration: none;
+    padding-left: 50px;
+    font-style: italic;
+    color: rgba(130, 31, 13, 0.685);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+header{
+    background-color: rgba(130, 31, 13, 0.685);
+    min-height: 70px;
+} 
+
+#branding img{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+/* .nav a li{
+    display: inline;
+    padding:  20px;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: none;
+    float: left;
+}
+
+nav a li:active, nav a li:hover{
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.nav{
+    float: right;
+    margin-right: 100px;
+}
+.active{
+    color: aquamarine;
+} */
+
+/* 
+ */
+
+
+.active{
+    color: orchid;
+}
+
+header button{
+    background-color: antiquewhite;
+    color: rgb(7, 7, 7);
+    border: none;
+    width: 170px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin-top: -10px;
+}
+
+header button:hover{
+text-decoration: underline;
+}
+.herosection{
+    display: flex;
+}
+.hero-desc{
+margin-left: 200px;
+margin-top: 200px;
+}
+.hero-desc h1{
+font-size: 40px;
+}
+.hero-desc p{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    width: 600px;
+}
+.hersection button{
+background-color: rgba(130, 31, 13, 0.685);
+color: white;
+border: none;
+width: 100px;
+height: 30px;
+font-size: 17px;
+border-radius: 5px;
+margin-top: 10px;
+}
+.herosection button:hover{
+    text-decoration: underline;
+}
+.display-text{
+    text-align: center;
+    padding-top: 50px;
+}
+.card{
+    width: 300px;
+    height: auto;
+    background-color: rgb(240, 248, 255);
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    box-shadow: inset 0 -3em 3em rgb(0, 200, 0),
+    0 0 0 2px white,
+    0.3em 0.3em 1em rgb(215, 0, 0);
+}
+.card img{
+width: 100%;
+}
+.card button{
+    background-color: rgba(213, 0, 0, 0.805);
+    color: aliceblue;
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 70px;
+}
+.dislays{
+    color: rgba(165, 42, 42, 0.804);
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 100px;
+}
+.cardss{
+    width: 300px;
+    height: auto;
+    background-color: aliceblue;
+    text-align: center;
+    margin-bottom: 50px;
+    gap: 50px;
+    border: 1px solid grey;
+}
+.cardss img{
+    width: 100px;
+    height: fit-content;
+}
+.cardss button{
+    background-color: rgb(165, 42, 42);
+    color: rgb(242, 239, 239);
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+   .navbar-brand img{
+    width: 50px;
+    height: 50px;
+    }
+     
+     .navbar{
+        background-color: brown;
+        float: inline-end;
+    }  
+    
+     .nav-link{
+        color: rgb(0, 0, 0) !important;
+    }
+    
+    .navbar-nav .nav-link button{
+        margin-right: 50px !important;
+        background-color: rgba(130, 31, 13, 0.685);
+    } 

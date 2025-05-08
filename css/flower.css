@@ -1,0 +1,42 @@
+/* .container-fluid{
+    background-color: rgb(104, 6, 6);
+    color: white;
+    text-transform: uppercase;
+    text-decoration: solid;
+} */
+
+/* .herosection{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.hero img{
+    float: right;
+    padding-top: 20px;
+} */
+
+.about img{
+    border-radius: 150px;
+    float: right;
+}
+
+.footer button{
+    border-radius: 5px;
+    margin-left: -120px;
+    background-color: rgb(110, 9, 9);
+    margin-top: -10px;
+    color: aliceblue;
+    height: 30px;
+}
+
+.footer input{
+    height: 50px;
+}
+
+.navbar-nav{
+    margin-left: 750px;
+    /* padding-left: 50px; */
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
